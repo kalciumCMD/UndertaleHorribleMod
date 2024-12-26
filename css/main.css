@@ -1,0 +1,38 @@
+html{
+	font-size:10px;	
+}
+
+@font-face{
+	font-family:Determination;
+	src:url(../media/fonts/determination.woff);	
+}
+
+
+body{
+	background-color:black;
+	color:white;
+	font-family: "Determination";
+	text-align:center;
+	
+}
+
+img{
+	image-rendering: pixelated;	
+}
+
+.header{
+	 color:yellow;
+	 font-size:4.5em;
+}
+
+p{
+	font-size:2.5em;
+}
+
+.border{
+	border:solid white .1rem;
+}
+
+::-webkit-scrollbar-track {
+background: #f1f1f1
+}
